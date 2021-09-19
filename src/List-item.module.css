@@ -1,0 +1,27 @@
+.list_item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    padding: 25px;
+    margin: 10px 0;
+    background-color: aliceblue;
+    border-radius: 30px;
+    box-shadow: 5px 5px 10px black;
+    transition: all 0.5s ease-out;
+}
+
+.description{
+    font-size: 30px;
+    margin: 0;
+}
+.remove, .completed{
+    width: 30px;
+    height: 30px;
+    align-self: center;
+    cursor: pointer;
+}
+.complete{
+    opacity: 0.5;
+    text-decoration: line-through;
+}
